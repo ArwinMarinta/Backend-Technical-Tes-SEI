@@ -20,9 +20,9 @@ public class LocationRequest {
     @Size(max= 100)
     private String country;
 
-    @Size(max = 50)
+    @Size(max = 100)
     private String province;
 
-    @Size(max = 50)
+    @Size(max = 100)
     private String city;
 }
