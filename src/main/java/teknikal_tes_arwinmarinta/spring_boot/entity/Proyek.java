@@ -56,4 +56,8 @@ public class Proyek {
     )
     private Set<Location> locations;
 
+    public Proyek() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
 }

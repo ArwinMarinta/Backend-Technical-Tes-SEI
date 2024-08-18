@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class LocationRequest {
-    @NotBlank(message="The location name cannot be empty")
+    @NotBlank(message="The location name cannot be null")
     @Size(max = 200)
     private String locationName;
 
